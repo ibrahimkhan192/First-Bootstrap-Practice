@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+
+
+  <!-- font awesome 5 link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+ <!-- Bootstrap -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+</head>
+   <body>
+      <div class="container">
+        <header>
+        <nav class="navbar navbar-expand-md">
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span> <i class="fas fa-bars navbar-icon"> </i></span>
+          </button>
+
+          <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Upwork_Logo.svg/2560px-Upwork_Logo.svg.png" alt="logo">
+          </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item active">
+                      <a class="nav-link text-center text-md-left" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-center text-md-left" href="#about-me">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link text-center text-md-left" href="#">Features</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link text-center text-md-left" href="#card-part"> Popular </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link text-center text-md-left" href="#contact"> Contact Me</a>
+                    </li>
+                  
+                    <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="#feedback"> Feedback </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="#"> Log In</a>
+                  </li> 
+              </ul>
+          </div>
+        </nav>
+            <section id="banner">
+                  <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bolder text-white mb-5"> Learn Bootstrao From Scratech!!! </h1>
+                        <button class="btn btn-lg btn-success mr-3" onclick="location.href='#tutorial'" > <i class="fas fa-play mr-2"></i> Start Here </button>
+                        <button class="btn btn-lg btn-success mr-3" onclick="window.open('#')" class="request-callback"> <i class="fab fa-youtube mr-2"></i> Subscribe </button>
+                    </div>
+                  </div>
+            </section>
+        </header>
+
+      <main>
+        <!-- Features section starts -->
+           <section id="features" class="text-center">
+                   <div class="row">
+                        <div class="col-lg-4 d-block d-lg-flex">
+                          <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold"> Free to Use </h5>
+                            <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab quam modi ex id ad!</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 d-block d-lg-flex">
+                          <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold"> Free to Use </h5>
+                            <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab quam modi ex id ad!</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 d-block d-lg-flex">
+                          <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold"> Free to Use </h5>
+                            <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab quam modi ex id ad!</p>
+                          </div>
+                        </div>
+                   </div>
+           </section>
+
+           <!-- About section sterts  -->
+           <section id="about-me">
+                  <div class="section-title">
+                      <h3 class="text-center">About Me</h3>
+                      <hr class="hr-style" style="border-color: black;">
+                  </div>
+
+                  <div class="row">
+                     <div class="col-lg-5">
+                         <div class="basic-desc text-center text-lg-left">
+                              <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                              <h5 class="font-weight-bolder"> Personal Info</h5>
+                              <p>Name: Ibrahim khan</p> 
+                              <p>Profession : Junior Web Developer</p>
+                              <p>Current address : Barishal, Bangladesh</p>
+                              <p>Website: <a href="http://ibrahimkhnaib.me" target="blank">www.ibrahimkhan.me</a> </p> 
+                              <p><a href="https://www.dropbox.com/s/hcrb4xwuvwpicf7/PERSONAL%20INFORMATIONAnisul%20Islam.pdf?dl=0" target="blank" download="">
+                                  <button class="btn btn-primary mt-2">Download CV</button>
+                              </a></p>
+                         </div>
+                     </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-7"> </div>
+                    <div class="col-lg-5">
+                      <div class="achieve-desc text-center text-lg-left mt-3">
+                        <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>    
+                        <h5 class="font-weight-bolder">Achievements</h5>
+                        <p><span>100% Tuition Waiver: </span> Based on excellent academic result in Tampere university, Finland</p> <br>
+                        <p><span>Public Bank Scholarship: </span>  40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p> <br>
+                        <p><span>Silver Button: </span>  from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-5 mt-3">
+                      <div class="skill-desc">
+                        <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                        <h5 class="font-weight-bolder" >Skills</h5>
+
+                        <table>
+                            <tr>
+                              <td>HTML</td>
+                              <td>
+                                <span class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>CSS</td>
+                              <td>
+                                <span class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>JS</td>
+                              <td>
+                                <span class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                              </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+                 
+                <div class="row">
+                  <div class="col-lg-7">
+                  </div>
+                      <div class="col-lg-5 mt-3">
+                        <div class="achieve-desc text-center text-lg-left">
+                          <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>    
+                          <h5 class="font-weight-bolder">Achievements</h5>
+                          <p><span>100% Tuition Waiver: </span> Based on excellent academic result in Tampere university, Finland</p> <br>
+                          <p><span>Public Bank Scholarship: </span>  40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p> <br>
+                          <p><span>Silver Button: </span>  from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
+                      </div>
+                      </div>
+                </div>
+           </section>
+
+<!-- Popular section start here -->
+           <section id="card-part">
+                  <div class="section-title">
+                    <h3 class="text-center text-white"> Popular </h3>
+                    <hr class="hr-style" style="border-color: white;">
+                </div>
+
+                <div class="row text-center mb-3">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="card card-design mb-5 mb-lg-0">
+                        <img class="card-img-top" src="./img/crt-1.png" alt="curton">
+                        <div class="card-body text-center">
+                          <h3 class="card-title font-weight-bolder">HTML and CSS </h3>
+                          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, expedita.</p>
+                          <a href="#" class="stretched-link"></a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card card-design mb-5 mb-lg-5">
+                      <img class="card-img-top" src="./img/crt-3.png" alt="curton">
+                      <div class="card-body text-center">
+                        <h3 class="card-title font-weight-bolder">HTML and CSS </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, facilis?</p>
+                        <a href="#" class="stretched-link"></a>
+                      </div>
+                    </div>
+                </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="card card-design mb-5 mb-lg-5">
+                        <img class="card-img-top" src="./img/crt-4.png" alt="curton">
+                        <div class="card-body text-center">
+                          <h3 class="card-title font-weight-bolder">HTML and CSS </h3>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, facere!</p>
+                          <a href="#" class="stretched-link"></a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="row text-center mb-3">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="card card-design mb-5 mb-lg-0">
+                        <img class="card-img-top" src="./img/crt-1.png" alt="curton">
+                        <div class="card-body text-center">
+                          <h3 class="card-title font-weight-bolder">HTML and CSS </h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nemo.</p>
+                          <a href="#" class="stretched-link"></a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card card-design mb-5 mb-lg-5">
+                      <img class="card-img-top" src="./img/crt-3.png" alt="curton">
+                      <div class="card-body text-center">
+                        <h3 class="card-title font-weight-bolder">HTML and CSS </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, earum?</p>
+                        <a href="#" class="stretched-link"></a>
+                      </div>
+                    </div>
+                </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="card card-design mb-5 mb-lg-5">
+                        <img class="card-img-top" src="./img/crt-4.png" alt="curton">
+                        <div class="card-body text-center">
+                          <h3 class="card-title font-weight-bolder">HTML and CSS </h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, accusantium.</p>
+                          <a href="#" class="stretched-link"></a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+           </section>
+
+                  <!-- Feedback Carosel Design  -->
+                <section id="feedback" class="bg-info">
+                  <div class="section-title">
+                    <h3 class="text-center text-white"> Feedback </h3>
+                    <hr class="hr-style" style="border-color: white;">
+                  </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner text-white">
+                          <div class="carousel-item active">
+                              <p> Part-1...Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad enim eligendi ab sunt atque minima?</p>
+                              <img class="feedback-img rounded-circle mb-3" src="https://pbs.twimg.com/profile_images/1320618693307420673/2PRNyVAE_400x400.png" alt="my photo">
+                              <h6> Ibrahim Khan Naib</h6>
+                          </div>
+
+                          <div class="carousel-item">
+                              <p> Part-2...Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad enim eligendi ab sunt atque minima?</p>
+                              <img class="feedback-img rounded-circle mb-3" src="https://pbs.twimg.com/profile_images/1320618693307420673/2PRNyVAE_400x400.png" alt="my photo">
+                              <h6> Ibrahim Khan Naib</h6>
+                          </div>
+
+                          <div class="carousel-item">
+                              <p> Part-3...Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad enim eligendi ab sunt atque minima?</p>
+                              <img class="feedback-img rounded-circle mb-3" src="https://pbs.twimg.com/profile_images/1320618693307420673/2PRNyVAE_400x400.png" alt="my photo">
+                              <h6> Ibrahim Khan Naib</h6>
+                          </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+          </section>
+<!-- Contact me starts here -->
+          <section id="contact">
+            <div class="section-title">
+              <h3 class="text-center text-white">Contact Me</h3>
+              <hr class="hr-style">
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <form action="mailto:ibrahimkhanbu@gmail.com" method="post" enctype="text/plain" class="was-validated">
+
+                   <div class="form-group mb-1">
+                        <label for="fullname"> Fullname </label>
+                        <input type="text" class="form-control" name="fullname" required>
+                        <div class="valid-feedback"> valid </div>
+                        <div class="invalid-feedback" style="color: white;"> Enter fullname before submitting the form  </div>
+                   </div>
+
+                   <div class="form-group mb-1">
+                        <label for="email"> Email </label>
+                        <input type="email" class="form-control" name="email" required>
+                  </div>
+
+                  <div class="form-group mb-1">
+                        <label for="message"> Message </label>
+                        <textarea style="resize: none;" name="" id="" class="form-control" cols="30" rows="4"></textarea>
+                  </div>
+
+                  <div class="form-group text-center mb-1 mt-3">
+                    <input type="submit" class="btn btn-primary mr-3" value="submit">
+                    <input type="reset" class="btn btn-primary" value="reset">
+                 </div>
+              </form>
+           </div>
+       </div>
+   </section>
+</main>
+
+    <footer>
+           <div class="row text-white">
+                <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                  <p class="small mb-0 mt-1 ">&copy; Copyright Ibrahim khan</p>
+                </div> 
+             <div class="col-lg-6 text-center text-lg-right">
+                <a href="#">Home</a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+             </div>
+           </div>
+    </footer>
+
+</div>
+
+
+
+
+
+
+ 
+<!-- Bootstrap JS Requirements -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
